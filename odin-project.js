@@ -34,7 +34,7 @@ buttons[0].addEventListener('click', function playRock() {
         computerScore++
     };
 
-    scoreElement.textContent = `PlayerScore: ${playerScore}  -  ComputerScore: ${computerScore}`;
+    scoreElement.textContent = `PlayerScore: ${playerScore} -  ComputerScore: ${computerScore}`;
 
     if (playerScore === 5) {
         displayResult.textContent = "You Win!";
